@@ -1,0 +1,39 @@
+# Node modules directory
+node_modules/
+
+# Environment variable files
+.env
+
+# Logs
+*.log
+logs/
+
+# Directory for file uploads
+uploads/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+.vscode/
+.idea/
+
+# Coverage directory used by testing tools
+coverage/
+
+# Build directories
+build/
+dist/
+
+# Specific folders for frontend and backend
+public/css/
+public/js/
+src/controllers/
+src/middleware/
+src/models/
+src/routes/
+src/utils/
+
+# Optional npm debug file
+npm-debug.log*

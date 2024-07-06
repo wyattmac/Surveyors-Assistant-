@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surveyor's Assistant</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Surveyor's Assistant</h1>
+
+        <div id="registrationSection">
+            <h2>Register</h2>
+            <form id="registrationForm">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Username" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Password" required>
+                <button type="submit">Register</button>
+            </form>
+            <p id="registrationMessage"></p>
+        </div>
+
+        <div id="loginSection">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="loginEmail">Email</label>
+                <input type="email" id="loginEmail" placeholder="Email" required>
+                <label for="loginPassword">Password</label>
+                <input type="password" id="loginPassword" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p id="loginMessage"></p>
+        </div>
+
+        <div id="userSection">
+            <p id="userInfo"></p>
+            <button id="logoutButton">Logout</button>
+
+            <div id="projectSection">
+                <h2>Projects</h2>
+                <form id="projectForm">
+                    <label for="projectName">Project Name</label>
+                    <input type="text" id="projectName" placeholder="Enter project name">
+                    <button type="submit">Add Project</button>
+                </form>
+                <ul id="projectList"></ul>
+            </div>
+
+            <div id="uploadSection">
+                <h2>Upload File</h2>
+                <form id="uploadForm">
+                    <input type="file" id="file" required>
+                    <button type="submit">Upload</button>
+                </form>
+                <p id="uploadStatus"></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
